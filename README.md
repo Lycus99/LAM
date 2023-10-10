@@ -22,3 +22,4 @@ Our model weights can be downloaded after the paper is accepted.
 
 ## Key Files
 
+LAM-Lite model: [model definition](https://github.com/Lycus99/LAM/blob/main/lib/models/time_transformer_aim.py#162)
