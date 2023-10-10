@@ -23,3 +23,11 @@ Our model weights can be downloaded after the paper is accepted.
 ## Key Files
 
 LAM-Lite model: [https://github.com/Lycus99/LAM/blob/main/lib/models/time_transformer_aim.py#L162](https://github.com/Lycus99/LAM/blob/main/lib/models/time_transformer_aim.py#L162)
+
+build LAM-Lite model: [https://github.com/Lycus99/LAM/blob/main/lib/models/time_transformer_aim.py#L333](https://github.com/Lycus99/LAM/blob/main/lib/models/time_transformer_aim.py#L333)
+
+LAM-Mega model: [https://github.com/Lycus99/LAM/blob/main/lib/models/time_transformer_aim.py#L285](https://github.com/Lycus99/LAM/blob/main/lib/models/time_transformer_aim.py#L285)
+
+build LAM-Mega model: [https://github.com/Lycus99/LAM/blob/main/lib/models/time_transformer_aim.py#L341](https://github.com/Lycus99/LAM/blob/main/lib/models/time_transformer_aim.py#L341)
+
+After training the two models separately, we got the output prediction and then averaged them. 
