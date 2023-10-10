@@ -311,8 +311,8 @@ class General_Only(nn.Module):
             yi, yt = self.fc_i(output[t - 1::t]), self.fc_t(output[t - 1::t])
             output = attention(output, self.t_general)
             yv, ya = self.fc_v(output), self.fc_general(output)
-            # return [yi, yv, yt, ya]
-            return [output, ya]  # get_model_features
+            return [yi, yv, yt, ya]
+            # return [output, ya]  # get_model_features
         else:
             return self.fc_general(output)  # [bs, 100]
             # return [output, self.fc_general(output)]  # get_model_features
