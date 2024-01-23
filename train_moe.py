@@ -39,7 +39,6 @@ from lib.dataset.get_dataset import get_datasets
 from lib.utils.logger import setup_logger
 import lib.models as models
 import lib.models.aslloss
-from lib.models.time_transformer_clip import *
 from lib.models.time_transformer_aim import *
 # from lib.models.model_aim import *
 from lib.utils.metric import voc_mAP
