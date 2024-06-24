@@ -12,6 +12,24 @@ Our code is based on [Q2L](https://github.com/SlongLiu/query2labels) and [AIM](h
 
 The dataset and evaluation metrics are [here](https://github.com/CAMMA-public/cholect50). 
 
+## Results
+# CholecTriplet2021 data split
+
+| Model | mAP_I | mAP_V | mAP_T | mAP_IV | mAP_IT | mAP_IVT |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| LAM_Lite | 0.8479 | 0.5526 | 0.4416 | 0.3782 | 0.3991 | 0.3756 |
+| LAM_Base | 0.8651 | 0.5571 | 0.4632 | 0.3979 | 0.4323 | 0.4050 |
+| LAM_Large | 0.8673 | 0.5605 | 0.4890 | 0.3907 | 0.4404 | 0.4209 |
+
+
+# Cross-Val data split
+
+| Model | mAP_I | mAP_V | mAP_T | mAP_IV | mAP_IT | mAP_IVT |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| LAM_Lite | 0.932±0.014 | 0.701±0.018 | 0.472±0.021 | 0.464±0.041 | 0.443±0.008 | 0.369±0.022 |
+| LAM_Base | 0.936±0.013 | 0.708±0.012 | 0.502±0.029 | 0.477±0.049 | 0.464±0.005 | 0.392±0.020 |
+| LAM_Large | 0.946±0.013 | 0.724±0.025 | 0.515±0.040 | 0.490±0.044 | 0.483±0.008 | 0.406±0.022 |
+
 ## Pretrained models
 
 The LAM-Lite model used the ResNet-18 as the backbone pre-trained on ImageNet-1K. The LAM-Mega model used the ViT-B/16 and ViT-L/14 based on [CLIP](https://github.com/openai/CLIP)
