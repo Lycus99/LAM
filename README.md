@@ -1,8 +1,11 @@
 # LAM
 
-![Figure1](https://github.com/Lycus99/LAM/assets/109274751/9cb3753d-4bf2-480e-a8f0-255a1b3e7e92)
+![Figure1](https://github.com/Lycus99/LAM/assets/109274751/89fca7e9-cb04-49fd-8acc-19327b85306a)
 
 Created by Yuchong Li
+
+Paper Link: https://link.springer.com/article/10.1007/s11548-024-03147-6
+
 
 This repository contains PyTorch implementation for LAM.
 
