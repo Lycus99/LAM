@@ -39,7 +39,12 @@ The LAM-Lite model used the ResNet-18 as the backbone pre-trained on ImageNet-1K
 
 ## Model weights
 
-Our model weights can be downloaded after the paper is accepted.
+Only includes the results of the CholecTriplet2021 data split (due to limited space on Google Drive)
+https://drive.google.com/drive/folders/1dhzawhrsf_t3pjAebj98cdSgtwdZiMWZ?usp=drive_link
+
+Full model weights and predictions(CholecTriplet2021 and 5-fold cross-validation)
+https://www.alipan.com/s/VAStNYFt7mJ
+
 
 ## Key Files
 
